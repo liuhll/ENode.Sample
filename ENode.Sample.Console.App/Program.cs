@@ -19,6 +19,7 @@ namespace ENode.Sample.Console.App
     {
         static ILogger _logger;
         static ENodeConfiguration _configuration;
+
         static void Main(string[] args)
         {
             ConfigSettings.Initialize();

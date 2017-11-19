@@ -21,10 +21,9 @@ namespace ENode.Sample.Console.App
 {
     public static class ENodeExtensions
     {
-    
-
         private static NameServerController _nameServer;
         private static BrokerController _broker;
+
         private static CommandService _commandService;
         private static CommandConsumer _commandConsumer;
 
@@ -59,7 +58,6 @@ namespace ENode.Sample.Console.App
         public static ENodeConfiguration StartEQueue(this ENodeConfiguration enodeConfiguration)
         {
             //var configuration = enodeConfiguration.GetCommonConfiguration();
-
             _commandService.Initialize(
                 new CommandResultProcessor().Initialize(
                     new IPEndPoint(SocketUtils.GetLocalIPV4(), ConfigSettings.BrokerCommandPort)));
@@ -77,8 +75,6 @@ namespace ENode.Sample.Console.App
             _nameServer = new NameServerController();
             _broker = BrokerController.Create();
 
-
-
             _nameServer.Start();
             _broker.Start();
             _commandService.Start();
@@ -86,7 +82,6 @@ namespace ENode.Sample.Console.App
             _commandConsumer.Start();
             _eventPublisher.Start();
             
-
             WaitAllConsumerLoadBalanceComplete();
 
             return enodeConfiguration;
