@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENode.Sample.Domain", "ENode.Sample.Domain\ENode.Sample.Domain.csproj", "{DEC3DB8F-5A30-4DC8-9F3F-AEFCE84135EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENode.Sample.Common", "ENode.Sample.Common\ENode.Sample.Common.csproj", "{6345D0BE-BB1E-4AFC-98E4-E43939B33D3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENode.Sample.Commands", "ENode.Sample.Commands\ENode.Sample.Commands.csproj", "{B06E9A4D-DBA1-4BA3-AD92-0AC1B8BCF22E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENode.Sample.CommandHandlers", "ENode.Sample.CommandHandlers\ENode.Sample.CommandHandlers.csproj", "{9D8F6988-3905-497B-8C45-DD7D34E692E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENode.Sample.Denormalizers", "ENode.Sample.Denormalizers\ENode.Sample.Denormalizers.csproj", "{66BD74F8-D2AB-40E6-A0C0-7B0F1E80E7E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ENode.Sample.Console.App", "ENode.Sample.Console.App\ENode.Sample.Console.App.csproj", "{64A72E0B-D58A-4707-A7F9-C31739A12F1B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEC3DB8F-5A30-4DC8-9F3F-AEFCE84135EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEC3DB8F-5A30-4DC8-9F3F-AEFCE84135EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEC3DB8F-5A30-4DC8-9F3F-AEFCE84135EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEC3DB8F-5A30-4DC8-9F3F-AEFCE84135EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6345D0BE-BB1E-4AFC-98E4-E43939B33D3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6345D0BE-BB1E-4AFC-98E4-E43939B33D3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6345D0BE-BB1E-4AFC-98E4-E43939B33D3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6345D0BE-BB1E-4AFC-98E4-E43939B33D3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B06E9A4D-DBA1-4BA3-AD92-0AC1B8BCF22E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B06E9A4D-DBA1-4BA3-AD92-0AC1B8BCF22E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B06E9A4D-DBA1-4BA3-AD92-0AC1B8BCF22E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B06E9A4D-DBA1-4BA3-AD92-0AC1B8BCF22E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8F6988-3905-497B-8C45-DD7D34E692E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8F6988-3905-497B-8C45-DD7D34E692E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8F6988-3905-497B-8C45-DD7D34E692E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8F6988-3905-497B-8C45-DD7D34E692E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66BD74F8-D2AB-40E6-A0C0-7B0F1E80E7E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BD74F8-D2AB-40E6-A0C0-7B0F1E80E7E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BD74F8-D2AB-40E6-A0C0-7B0F1E80E7E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66BD74F8-D2AB-40E6-A0C0-7B0F1E80E7E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64A72E0B-D58A-4707-A7F9-C31739A12F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A72E0B-D58A-4707-A7F9-C31739A12F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A72E0B-D58A-4707-A7F9-C31739A12F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A72E0B-D58A-4707-A7F9-C31739A12F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
